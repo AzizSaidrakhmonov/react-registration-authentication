@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(55, 202, 18) !important;
+}
+article {
+    text-align: center;
+}
+
+article h1 {
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-size: 37px;
+}
+
+article form {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article form label {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 3px;
+}
+
+article form input {
+    width: 200px;
+    margin-bottom: 30px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 3px;
+    font-family: sans-serif;
+    /* font-size: 16px; */
+}
+
+article form input:focus {
+    outline: none;
+}
+
+.form-btn {
+    cursor: pointer;
+    color: #fff;
+}
+
+.to-register p {
+    font-family: sans-serif;
+    margin-bottom: 5px;
+}
+
+
+.admin-panel__header {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.admin-panel__search {
+    width: 300px;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+.admin-panel__search:focus {
+    outline: none;
+}
+
+.action-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.btn-success, .btn-warning {
+    transform: scale(1.5);
+    margin-right: 30px;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.btn-danger {
+    margin-right: 20px;
+    padding: 6px;
+    border: none;
+}
+
+.logout-btn {
+    color: #fff;
+    padding: 5px 12px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+.admin-panel__table {
+    margin-top: 30px;
+    background-color: #fff;
+}
+
+.admin-himself {
+    color: red;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.table-checkbox__all {
+    border: none;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.table-checkbox {
+  background-color: #fff;
+  width: 1.15em;
+  height: 1.15em;
+  margin-left: 20px;
+}
+
+.active {
+    color: rgb(16, 203, 16) !important;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.block {
+    color: rgb(252, 0, 0) !important;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+
+
+
+
